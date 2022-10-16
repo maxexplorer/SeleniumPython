@@ -8,7 +8,7 @@ def test_registration1():
     link = "http://suninjuly.github.io/registration1.html"
 
     browser = webdriver.Chrome(
-        executable_path="/chromedriver/chromedriver.exe")
+        executable_path="C:/Users/Макс/PycharmProjects/SeleniumPython/chromedriver/chromedriver.exe")
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
@@ -40,7 +40,7 @@ def test_registration2():
     link = "http://suninjuly.github.io/registration2.html"
 
     browser = webdriver.Chrome(
-        executable_path="/chromedriver/chromedriver.exe")
+        executable_path="C:/Users/Макс/PycharmProjects/SeleniumPython/chromedriver/chromedriver.exe")
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
